@@ -1,0 +1,47 @@
+@import "../../assets/styles/common.scss";
+
+.page {
+  background-color: $primary;
+  padding: 29px;
+
+  &_title {
+    margin-bottom: 29px;
+  }
+
+  &_img {
+    margin: 56px 0;
+  }
+
+  &_statistics {
+    margin: 67px 0;
+  }
+
+  &_summary {
+    margin: 28px 0;
+  }
+
+  &_quotation {
+    margin-bottom: 111px;
+  }
+}
+
+.statistics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: space-between;
+
+  &_number {
+    color: #E3DAD0;
+    font-size: 96px;
+    font-weight: 300;
+    line-height: 110%;
+  }
+}
+
+.container {
+  max-width: 809px;
+  margin: 0 auto;
+}
+
+

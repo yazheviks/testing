@@ -1,0 +1,30 @@
+.card {
+  background-color: #EEE4DA;
+  padding: 54px 36px 59px 77px;
+
+  &__description {
+    margin-bottom: 29px;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__person {
+
+  }
+}
+
+.person {
+  display: flex;
+
+  &__avatar {
+    margin-right: 25px;
+    border-radius: 50%;
+  }
+
+  &__naming {
+
+  }
+}
